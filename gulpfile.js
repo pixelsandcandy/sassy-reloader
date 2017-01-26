@@ -20,7 +20,7 @@ gulp.task( 'default', defaultTasks );
 
 
 gulp.task('serve', function() {
-	var server = gls.static( CONFIG.root, 7777);
+	var server = gls.static( CONFIG.root, CONFIG.port);
 	server.start();
 
 	gulp.watch(['./scss/**/*.scss', CONFIG.root + '/**/*.html'], function (file) {

@@ -1,6 +1,7 @@
 CONFIG = {
 	output: './public/citigroup.com-redesign/citi/assets/css',
-	root: './public/citigroup.com-redesign'
+	root: './public/citigroup.com-redesign',
+	port: 8888
 }
 
 /*
