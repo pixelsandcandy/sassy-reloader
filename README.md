@@ -24,5 +24,5 @@ $ git clone YOUR_REPO.git
 $ cd path_to/sassy-reloader
 $ gulp
 
-// go to localhost:8888
+// localhost:8888
 ```
