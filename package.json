@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.0",
-    "gulp-livereload": "^3.8.1",
+    "gulp-live-server": "0.0.30",
     "gulp-sass": "2.1.0"
   }
 }
