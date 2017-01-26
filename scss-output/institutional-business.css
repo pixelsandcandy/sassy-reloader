@@ -1,0 +1,82 @@
+[data-page='institutional-business'] .section-content {
+  font-size: 14px; }
+  @media (min-width: 768px) {
+    [data-page='institutional-business'] .section-content {
+      font-size: 16px; } }
+
+[data-page='institutional-business'] .hero-institutional-business {
+  background: url(/citi/assets/img/institutional-business/hero.jpg) no-repeat center top;
+  background-size: cover; }
+
+[data-page='institutional-business'] .img-bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+[data-page='institutional-business'] .links {
+  color: #008ce6;
+  font-size: 14px; }
+  [data-page='institutional-business'] .links a {
+    color: #008ce6; }
+    [data-page='institutional-business'] .links a:hover {
+      text-decoration: underline !important; }
+
+@media (min-width: 768px) {
+  [data-page='institutional-business'] .content-container {
+    margin-top: 0px !important;
+    position: relative;
+    top: -20px; } }
+
+[data-page='institutional-business'] .citi-content-section:last-child {
+  padding-bottom: 0; }
+  @media (min-width: 768px) {
+    [data-page='institutional-business'] .citi-content-section:last-child {
+      padding-bottom: 2em; } }
+
+[data-page='institutional-business'] .citi-content-section h1 {
+  padding-top: 0; }
+
+[data-page='institutional-business'] .citi-content-section img {
+  width: 110%;
+  position: relative;
+  left: -5%; }
+
+@media (min-width: 768px) {
+  [data-page='institutional-business'] .citi-content-section img {
+    width: 100%;
+    position: auto;
+    left: 0; } }
+
+[data-page='institutional-business'] .citi-content-section p {
+  margin-top: 40px; }
+
+[data-page='institutional-business'] .citi-content-section .learn-more_ {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px; }
+
+[data-page='institutional-business'] .citi-content-section a.learn-more {
+  display: block;
+  color: white;
+  background-color: #0f6cae;
+  float: none;
+  display: inline-block;
+  font-family: Interstate, sans-serif;
+  border-radius: 5px 5px;
+  padding: 8px 24px;
+  font-size: 1.1em;
+  margin-top: 8px; }
+  @media (min-width: 768px) {
+    [data-page='institutional-business'] .citi-content-section a.learn-more {
+      float: left;
+      border-radius: 8px 8px;
+      padding: 10px 30px;
+      font-size: 16px;
+      margin-top: 18px;
+      margin-bottom: 10px; } }
+
+[data-page='institutional-business'] .citi-content-section h2 {
+  font-weight: bold; }
+
+[data-page='institutional-business'] .intro {
+  margin-top: 0; }
