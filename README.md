@@ -7,7 +7,7 @@ $ cd sassy-reloader
 $ npm install
 $ cd public
 $ git clone YOUR_REPO.git
-
+// switch branch if needed
 
 
 // PRE
