@@ -1,5 +1,6 @@
 CONFIG = {
-	output: './public/compose-your-life/html/css',
+	input: './public/compose-your-life/html/assets/scss',
+	output: './public/compose-your-life/html/assets/css',
 	root: './public/compose-your-life/html',
 	port: 8080
 }

@@ -23,18 +23,14 @@ gulp.task('serve', function() {
 	var server = gls.static( CONFIG.root, CONFIG.port);
 	server.start();
 
-	gulp.watch(['./scss/**/*.scss', CONFIG.root + '/**/*.html'], function (file) {
+	gulp.watch([ CONFIG.input + '/**/*.scss', CONFIG.root + '/**/*.html'], function (file) {
 		gulp.start( 'sass' );
 		server.notify.apply(server, [file]);
 	});
 });
 
 gulp.task( 'sass', function() {
-	gulp.src( './scss/**/*.scss' )
-		.pipe( sass.sync().on( 'error', sass.logError ) )
-		.pipe( gulp.dest( './scss-output' ) );
-
-	gulp.src( './scss/**/*.scss' )
+	gulp.src( CONFIG.input + '/**/*.scss' )
 		.pipe( sass.sync().on( 'error', sass.logError ) )
 		.pipe( gulp.dest( CONFIG.output ) );
 });
