@@ -23,14 +23,14 @@ gulp.task('serve', function() {
 	var server = gls.static( CONFIG.root, CONFIG.port);
 	server.start();
 
-	gulp.watch([ CONFIG.input + '/**/*.scss', CONFIG.root + '/**/*.html'], function (file) {
+	gulp.watch([ CONFIG.inputFolder + '/**/*.scss', CONFIG.root + '/**/*.html'], function (file) {
 		gulp.start( 'sass' );
 		server.notify.apply(server, [file]);
 	});
 });
 
 gulp.task( 'sass', function() {
-	gulp.src( CONFIG.input + '/**/*.scss' )
+	gulp.src( CONFIG.input )
 		.pipe( sass.sync().on( 'error', sass.logError ) )
 		.pipe( gulp.dest( CONFIG.output ) );
 });

@@ -1,7 +1,8 @@
 CONFIG = {
-	input: './public/compose-your-life/html/assets/scss',
-	output: './public/compose-your-life/html/assets/css',
-	root: './public/compose-your-life/html',
+	input: './public/trust-data-viz/assets/scss/data-viz-2018.scss',
+	inputFolder: './public/trust-data-viz/assets/scss',
+	output: './public/trust-data-viz/assets/styles',
+	root: './public/trust-data-viz',
 	port: 8080
 }
 
